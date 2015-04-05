@@ -3,9 +3,8 @@ Convert a number to persian words
 
 ## Usage 
 
-    $numberToLetter = new Number2Letter();
     $numberToLetter = new NumberToLetter();
-    $numberToLetter->join = ' و ';
+    $numberToLetter->join = ' و '; // Optional | Default is و 
     $letter = $numberToLetter->solve('83348939399399393'); // Note : Up to 66 digits.
     echo $letter;
     // Output : 
